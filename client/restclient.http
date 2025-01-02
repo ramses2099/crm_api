@@ -1,0 +1,41 @@
+GET http://127.0.0.1:8000/api/v1/users/ HTTP/1.1
+Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1MzA5NTkzLCJpYXQiOjE3MzUzMDkyOTMsImp0aSI6ImE2MDI5MmQ0MGIzNTRkYzliOWZkNzBlN2Y2YTcyOTFkIiwidXNlcl9pZCI6MX0.U2VX1eudff_MB4vI2jIM8g4sH2R1HQtNaby1en-kzCw
+
+### Authorization: Bearer
+
+GET http://127.0.0.1:8000/api/v1/status/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1NDkzNTQxLCJpYXQiOjE3MzU0OTMyNDEsImp0aSI6ImRlOWU1N2E4NTlmNDRlNTdiOWRlMmQ2MDQ2MmE1NTc4IiwidXNlcl9pZCI6MX0.17s9qEJFCBbPkSf0HJNpxBTSC-l82SPe1KvIfZTdtFE
+
+###
+
+
+GET http://127.0.0.1:8000/api/v1/status/2 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1NDkzNTQxLCJpYXQiOjE3MzU0OTMyNDEsImp0aSI6ImRlOWU1N2E4NTlmNDRlNTdiOWRlMmQ2MDQ2MmE1NTc4IiwidXNlcl9pZCI6MX0.17s9qEJFCBbPkSf0HJNpxBTSC-l82SPe1KvIfZTdtFE
+
+###
+
+GET http://127.0.0.1:8000/api/v1/customers/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1MzE3Nzk1LCJpYXQiOjE3MzUzMTc0OTUsImp0aSI6IjI4ZTc5OGY3OWI4MzRkOGRiNDdiNmQ1ZTAzNDg0YmNhIiwidXNlcl9pZCI6MX0.QIc-tmtHXM7CNA3-n6TOXb8vYsc13y21o16eEPsG2vE
+
+
+###
+
+GET http://127.0.0.1:8000/api/v1/customertype/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzM1ODE5ODkzLCJpYXQiOjE3MzU4MTk1OTMsImp0aSI6Ijk4YWJiZTY1MWI5YzRlYmZiZDFmYmNhN2VlOGRmZGNhIiwidXNlcl9pZCI6MX0.3OmFhnXGq636WZ-IwA9h-f_xEcQOI7XZ2rZWRBAmwYE
+
+
+
+
+###
+POST http://127.0.0.1:8000/api/token/ HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+   "username": "admin", "password": "123456"
+}
