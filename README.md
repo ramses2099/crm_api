@@ -84,7 +84,7 @@ python manage.py migrate
 ```
 python manage.py shell
 
-from models import Statu
+from models import Status
 
 ```
 
